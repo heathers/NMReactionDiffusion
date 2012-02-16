@@ -23,4 +23,6 @@ Using Crank-Nicolson the way it is implemented currently took
 performance that I did not test further.
 
 Please see included graph for FTCS running time. X axis is
-"problem size" n=nx=ny=nz.
+"problem size" n=nx=ny=nz. Y axis is in milliseconds. 1000x
+1000x1000 actually got killed; it timed out, so I wasn't
+able to record a time for it.
