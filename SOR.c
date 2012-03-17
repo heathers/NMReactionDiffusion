@@ -15,7 +15,7 @@ int main()
 
     double C = 10;
     double w = 1.65;
-    int n = 120;
+    int n = 257;
     double *xx = dvector(1,n);
     for (int i = 1; i < n; i++) {
     	xx[i] = -2 + 4*(double)i/n;
